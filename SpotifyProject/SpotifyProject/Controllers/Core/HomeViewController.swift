@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  SpotifyProject
 //
 //  Created by 陳飛 on 15/5/2022.
@@ -7,11 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.title = "Home"
+        self.view.backgroundColor = .lightGray
     }
 
 
